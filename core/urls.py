@@ -21,5 +21,4 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),  # Админка Django
     path('', include('menu.urls')),  # Включение URL-шаблонов из приложения menu
-    path('__debug__/', include('debug_toolbar.urls')),
 ]
